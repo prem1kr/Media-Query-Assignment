@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question5</title>
+    <style>
+.container{
+    display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #ffffff;
+    
+}
+
+.box{
+    border: 1px solid white;
+    color: white;
+}
+
+.main{
+    position: absolute;
+    left: 109px;
+    margin: 0px;
+    width: 86%;
+    height: 700px;
+   
+}
+
+.box1{
+    width: 100px;
+    height: 700px;
+    background-color: black;
+    text-align: center;
+}
+
+
+.box3{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    background-color: orangered;
+
+    text-align: center;
+    
+    
+}
+.box2{
+    width: 100%;
+    height: 50%;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.footer{
+    width: 100px;
+    height: 700px;
+    position: absolute;
+    right: 0px;
+}
+.box4{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+ .main{
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    width: 100%;
+    height: 400px;
+    
+ }
+
+ .box1{
+    width: 100%;
+    height: 200px;
+    
+ }
+ .footer{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+ }
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">Box1</div>
+        <div class="main">
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+    </div>
+    <div class="footer">
+        <div class="box box4">Box4</div>
+    </div>
+    </div>
+</body>
+</html>
